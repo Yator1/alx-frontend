@@ -391,8 +391,22 @@ html {
     --footer-padding: 5rem 0 1rem;
 }
 
+.section {
+  padding: var(--section-padding);
+}
+
 .section-header {
     text-align: var(--section-header-align);
+    padding: var(--section-header-padding);
+}
+
+.section-body {
+  padding: var(--section-body-padding);
+}
+
+.section-footer {
+  padding: var(--section-footer-padding);
+  text-align: var(--section-footer-align);
 }
 
 .section-tagline, .card-category {
@@ -453,4 +467,8 @@ a[href]:hover {
 
 a[href]:active {
     background-color: var(--color-light-grey);
+}
+
+footer {
+  padding: var(--footer-padding);  
 }
