@@ -469,6 +469,6 @@ a[href]:active {
     background-color: var(--color-light-grey);
 }
 
-footer {
+.footer {
   padding: var(--footer-padding);  
 }
