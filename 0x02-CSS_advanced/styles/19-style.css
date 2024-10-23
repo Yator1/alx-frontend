@@ -510,11 +510,7 @@ a[href]:active {
   color: var(--nav-item-link-hover);
 }
 
-.footer {
-  padding: var(--footer-padding);  
-}
-
-.row ul {
+ul.row {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -540,4 +536,8 @@ a[href]:active {
 
 .footer ul {
   text-align: right;
+}
+
+.footer {
+  padding: var(--footer-padding);  
 }
