@@ -550,7 +550,7 @@ ul.row {
   display: block;
 }
 
-.social-link svg {
+svg.social-link {
   color: var(--text-color);
 }
 
