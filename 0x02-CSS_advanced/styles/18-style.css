@@ -460,20 +460,21 @@ a {
     text-decoration: none;
 }
 
-a[href] {
-    color: var(--text-color);
+a:link{
+  text-decoration: none;
+  color: var(--text-color);
 }
 
-a[href]:visited {
-    font-style: italic;
+a:visited {
+  font-style: italic;
 }
 
-a[href]:hover {
-    text-decoration: underline;
+a:hover {
+  text-decoration: underline;
 }
 
-a[href]:active {
-    background-color: var(--color-light-grey);
+a:active {
+  background-color: var(--color-light-grey);
 }
 
 .navbar-menu {
@@ -484,9 +485,6 @@ a[href]:active {
   margin: 0;
   padding: 0;
   text-align: center;
-}
-
-.nav ul {
   list-style: none;
 }
 
