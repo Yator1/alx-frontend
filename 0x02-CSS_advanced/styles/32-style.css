@@ -509,24 +509,21 @@ body, a {
     color: var(--text-color);
 }
 
-a {
-    text-decoration: none;
+a:link{
+  text-decoration: none;
+  color: var(--text-color);
 }
 
-a[href] {
-    color: var(--text-color);
+a:visited {
+  font-style: italic;
 }
 
-a[href]:visited {
-    font-style: italic;
+a:hover {
+  text-decoration: underline;
 }
 
-a[href]:hover {
-    text-decoration: underline;
-}
-
-a[href]:active {
-    background-color: var(--color-light-grey);
+a:active {
+  background-color: var(--color-light-grey);
 }
 
 .button {
@@ -584,10 +581,7 @@ a[href]:active {
   margin: 0;
   padding: 0;
   text-align: center;
-}
-
-.nav ul {
-  list-style-type: none;
+  list-style: none;
 }
 
 .nav .nav-item {
